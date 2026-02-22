@@ -1,0 +1,17 @@
+[project]
+name = "march-madness-and-chaos"
+version = "0.1.0"
+description = "A data essay exploring NCAA March Madness through historical analysis, probability modeling, and Monte Carlo simulation."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pandas>=2.2",
+    "matplotlib>=3.9",
+    "seaborn>=0.13",
+    "numpy>=2.0",
+    "jupyter>=1.0",
+    "plotly>=5.22",
+    "kaleido>=0.2",
+    "tqdm>=4.66",
+    "scipy>=1.14",
+]
