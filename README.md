@@ -2,7 +2,9 @@
 
 **A data essay in three acts — why your bracket is always wrong.**
 
-Every March, 64 college basketball teams get dropped into a single-elimination bracket — lose once, go home. The field splits into four regions (East, West, South, Midwest), each with 16 teams seeded #1 (best) through #16 (worst). Here's what trips up most newcomers: there are *four* #1 seeds, not one — each region has its own top dog. Seeds are mirror-matched so the favorites always open against the biggest underdogs: #1 plays #16, #2 plays #15, all the way down. The four regional champions advance to the Final Four, and one team takes it all. When a worse-seeded team beats a better one — #12 toppling #5, or #16 somehow knocking off #1 — that's an *upset*. A full bracket has 63 games — 63 chances for chaos.
+Every March, 64 college basketball teams get dropped into a single-elimination bracket — lose once, go home. The field splits into four regions (East, West, South, Midwest), each seeded #1 (best) through #16 (worst) — so there are *four* #1 seeds, not one, each region's own top dog. The four regional champions advance to the Final Four, and one team takes it all.
+
+When a worse-seeded team beats a better one — #12 toppling #5, or #16 somehow knocking off #1 — that's an *upset*. A full bracket has 63 games — 63 chances for chaos.
 
 <p align="center">
   <img src="outputs/figures/bracket_anatomy.png" width="85%" alt="Anatomy of the bracket — 4 regions of 16 seeds converging through 6 rounds to one champion"/>
