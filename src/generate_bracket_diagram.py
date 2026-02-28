@@ -166,7 +166,7 @@ def _draw_region(ax, x0, y0, name, direction="right"):
             x_out = x_lefts[rnd]            # left  edge of source cells
             x_in  = x_lefts[rnd + 1] + CW  # right edge of dest cell
 
-        for pair, y_dst in enumerate(ys[rnd + 1]):
+        for pair in range(len(ys[rnd + 1])):
             _connector(ax, x_out,
                        ys[rnd][pair * 2],
                        ys[rnd][pair * 2 + 1],
