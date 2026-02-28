@@ -2,7 +2,15 @@
 
 **A data essay in three acts — why your bracket is always wrong.**
 
-Every March, 64 college basketball teams are seeded #1 (best) through #16 (worst) and dropped into a single-elimination bracket. Tens of millions of people try to predict what happens. Almost every single one of them is wrong within 24 hours.
+Every March, 64 college basketball teams get dropped into a single-elimination bracket — lose once, go home. The field splits into four regions (East, West, South, Midwest), each seeded #1 (best) through #16 (worst) — so there are *four* #1 seeds, not one, each region's own top dog. The four regional champions advance to the Final Four, and one team takes it all.
+
+When a worse-seeded team beats a better one — #12 toppling #5, or #16 somehow knocking off #1 — that's an *upset*. A full bracket has 63 games — 63 chances for chaos.
+
+<p align="center">
+  <img src="outputs/figures/bracket_anatomy.png" width="85%" alt="Anatomy of the bracket — 4 regions of 16 seeds converging through 6 rounds to one champion"/>
+</p>
+
+Tens of millions of people try to predict every game before tip-off. Almost every single one of them is wrong within 24 hours.
 
 We wanted to know *why* — and just how wrong. So we analyzed every tournament game since 1985, built a probability model from the historical results, and then simulated **one million tournaments** to see what chaos really looks like at scale.
 
@@ -30,7 +38,7 @@ We dug into 39 years of real results to find where brackets fall apart. The tour
 **Turns out:**
 - The **later rounds are deadlier** than the opening weekend — the Elite 8 (final 8 teams) has a 43.6% upset rate, nearly double the first round's 26.1%
 - The **#8 vs #9 matchup is a pure coin flip** (51.9%) — stop agonizing over it, the rankings barely matter
-- The **#5 seed is the biggest trap** in the bracket — everyone picks them, and they choke more than any other ranking
+- The **#5 seed is the biggest trap** in the bracket — they lose in the first round more often than any other top-half seed, despite everyone picking them to advance
 - **March has always been mad** — upset rates haven't trended up or down in 39 years. Chaos is the one constant
 - **1985 was peak chaos** — 8th-ranked Villanova beat #1 Georgetown for the national title
 
@@ -59,7 +67,7 @@ Now for the fun part. We took our probability model and simulated a million tour
 </p>
 
 **Turns out:**
-- **The best teams still lose almost half the time** — #1 seeds win only 55.7% of simulated tournaments, despite being the top-ranked team in their quarter of the bracket
+- **The best teams still lose almost half the time** — #1 seeds win only 55.7% of simulated tournaments, despite being the top-ranked team in their region
 - **There's no "right" bracket** — the Final Four (last 4 teams standing) produced 1,748 unique combinations across a million runs. The most common one showed up just 6.5% of the time
 - **Cinderella is real** — a #11 seed (a team barely expected to survive round one) won the whole thing 6,833 times. Rare, but real
 - **The truly impossible isn't quite impossible** — a #16 seed, the lowest-ranked team in the field, won the title twice in a million tries
